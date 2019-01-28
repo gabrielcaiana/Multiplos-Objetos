@@ -7,3 +7,9 @@ function Hotel(nome,quartos,reservas) {
     return this.quartos - this.reservas;
   }
 }
+//Criando instâncias de Objetos
+let caianaHotel = new Hotel('Caiana', 50, 25);
+let almeidaHotel = new Hotel('Almeida', 100, 30);
+
+console.log(caianaHotel)
+console.log(almeidaHotel)
